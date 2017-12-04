@@ -115,7 +115,7 @@ public class MainActivity extends AppCompatActivity {
                   //  Bundle b =new Bundle();
                    // b.putString("data",s);
                     Toast.makeText(getApplicationContext(),s,Toast.LENGTH_LONG).show();
-                    Toast.makeText(MainActivity.this, "hiii", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "hi", Toast.LENGTH_SHORT).show();
                     Intent in=new Intent(getApplicationContext(),Main2Activity.class);
                     startActivity(in);
 
