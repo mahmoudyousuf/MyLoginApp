@@ -2,16 +2,16 @@
 package com.example.mahmo.myloginapp;
 import android.content.Intent;
 import android.os.AsyncTask;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.mahmo.myloginapp.R;
 import org.json.JSONArray;
 import org.json.JSONObject;
+
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
 import java.io.InputStream;
@@ -115,6 +115,7 @@ public class MainActivity extends AppCompatActivity {
                   //  Bundle b =new Bundle();
                    // b.putString("data",s);
                     Toast.makeText(getApplicationContext(),s,Toast.LENGTH_LONG).show();
+                    Toast.makeText(MainActivity.this, "hiii", Toast.LENGTH_SHORT).show();
                     Intent in=new Intent(getApplicationContext(),Main2Activity.class);
                     startActivity(in);
 
